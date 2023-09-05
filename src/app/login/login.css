@@ -77,7 +77,7 @@ textarea {
 }
 
 .button-container button:first-child {
-    margin-right: 10px; /* Remove margin for the first button (Forgot Password) */
+    margin-right: 10px;
 }
 
 .button-container button:hover {
