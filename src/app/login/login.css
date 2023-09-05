@@ -59,6 +59,31 @@ textarea {
     position: relative;
 }
 
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button-container button {
+    flex: 1;
+    background-color: #3cc6c6;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button:first-child {
+    margin-right: 10px; /* Remove margin for the first button (Forgot Password) */
+}
+
+.button-container button:hover {
+    background-color: #0D8AE8; 
+}
+
 .toggle-password {
     position: absolute;
     top: 50%;
@@ -87,7 +112,7 @@ button {
 }
 
 button:hover {
-    background-color: #3cc6c6;
+    background-color: #0D8AE8;
 }
 
 button:disabled {
