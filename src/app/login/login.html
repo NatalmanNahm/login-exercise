@@ -11,19 +11,21 @@
         <h2>Login</h2>
         <form id="loginForm">
             <div class="form-group">
-                <label for="username">Username</label>
+                <label for="username">Username<span class="required">*</span></label>
                 <input type="text" id="username" name="username" required>
             </div>
             <div class="form-group">
-                <label for="password">Password</label>
+                <label for="password">Password<span class="required">*</span></label>
                 <div class="password-input-container">
                     <input type="password" id="password" name="password" required>
                     <span id="passwordToggle" class="toggle-password">🔑</span>
                 </div>
             </div>
             <div class="form-group">
-                <label for="serverSelect">Select Server</label>
-                <select id="serverSelect" name="server"></select>
+                <label for="serverSelect">Select Server<span class="required">*</span></label>
+                <select id="serverSelect" name="server" required>
+                    <option value="" disabled selected>Select a Server</option>
+                </select>
             </div>
             <div class="form-group">
                 <label for="notes">Notes</label>

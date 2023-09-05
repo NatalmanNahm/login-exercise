@@ -31,7 +31,7 @@ passwordToggle.addEventListener("click", function () {
 const serverSelect = document.getElementById("serverSelect");
 
 // Define an array of server options
-const serverOptions = ["Choose a Server", "Development", "Test", "Demo", "Customer1", "Customer2"];
+const serverOptions = ["Development", "Test", "Demo", "Customer1", "Customer2"];
 
 
 // Function to populate the server select element
@@ -44,5 +44,4 @@ function populateServerSelect() {
     }
 }
 
-// Call the function to populate the server select element
 populateServerSelect();
