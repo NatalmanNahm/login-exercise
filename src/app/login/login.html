@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <div class="password-input-container">
+                    <input type="password" id="password" name="password" required>
+                    <span id="passwordToggle" class="toggle-password">🔑</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="serverSelect">Select Server</label>
+                <select id="serverSelect" name="server"></select>
+            </div>
+            <div class="form-group">
+                <label for="notes">Notes</label>
+                <textarea id="notes" name="notes" rows="4"></textarea>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
